@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+
+<body>
+    <h3> also For output open Console </h3>
+    <h2 id="htag">tap</h2>
+    <h2 id="htagg">tap</h2>
+    <h2 id="htaggg">tap</h2>
+    <script>
+        // 1.program
+        const add = (a, b) => {
+            return a + b;
+        }
+        console.log(add(5, 5));
+        var result = add(5, 5);
+        document.getElementById('htag').innerHTML = result;
+
+
+
+        // 2.program
+        const calculateArea = (radius) => {
+            const pi = 3.14159;
+            return pi * radius * radius;
+        }
+        console.log(calculateArea(5));
+        var result = calculateArea(5);
+        document.getElementById('htagg').innerHTML = result;
+
+        // 3.program
+        const factorial = (n) => {
+            let fact = 1;
+            for (let i = 1; i <= n; i++) {
+                fact *= i;
+            }
+            return fact;
+        }
+        console.log(factorial(5));
+        var result = factorial(5);
+        document.getElementById('htaggg').innerHTML = result;
+
+
+    </script>
+</body>
+
+</html>

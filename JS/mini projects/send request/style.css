@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("neon\ blue.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 24px 24px;
+}
+.card img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.card h1 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+}
+.card h5 {
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 5000;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  margin-top: 10px;
+  background-color: black;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+.remove {
+  width: 115px;
+}
+.next {
+  width: 115px;
+}

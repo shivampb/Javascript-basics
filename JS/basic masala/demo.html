@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D e m o</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="demo">Click for multipliation of two number</h1>
+    <button onclick="myfunction()">click here</button>
+    <script>
+        function myfunction() {
+            let a = parseInt(prompt("Enter first number"));
+            let b = parseInt(prompt("Enter second number"));
+            let result = a * b;
+            document.getElementById('demo').innerHTML = result;
+        }
+    </script>
+    <script src="first.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: geek;
+  src: url(geek.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  cursor: none;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.container h1 {
+  font-family: geek;
+  font-size: 10vw;
+  font-weight: 900;
+  color: #8c8c73;
+
+}
+
+.container .cursor {
+  height: 20px;
+  width: 20px;
+  background-color: #8c8c73;
+  border-radius: 50%;
+  position: absolute;
+  transition: all linear 0.1s;
+  mix-blend-mode: difference;
+}
